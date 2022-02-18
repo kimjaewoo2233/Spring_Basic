@@ -1,0 +1,19 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import spring.ChangePasswordService;
+
+
+@Controller
+@RequestMapping("/edit/changePassword")
+public class ChangePwdController {
+		private ChangePasswordService changePasswordService;
+		
+		public void setChangePasswordService(ChangePasswordService changePasswordService) {
+				this.changePasswordService = changePasswordService;
+		}
+		
+
+}

@@ -1,0 +1,15 @@
+INDEX VERSION 1.131
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3108205806.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3637589205.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3217787356.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\909618241.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2485999385.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\283151295.index
+\spring5se\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\Spring_SE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3547692988.index
+\spring5se\src\main\java

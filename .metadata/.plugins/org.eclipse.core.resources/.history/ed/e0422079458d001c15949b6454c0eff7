@@ -1,0 +1,22 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import spring.AuthService;
+
+@Controller
+@RequestMapping("/login")
+public class LoginController {
+	private AuthService authService;
+	
+	public void setAuthService(AuthService authService) {
+		this.authService = authService;
+	}
+	
+	@GetMapping
+	public String form(LoginCommand loginCommand) {
+			return "login/loginForm";
+	}
+}

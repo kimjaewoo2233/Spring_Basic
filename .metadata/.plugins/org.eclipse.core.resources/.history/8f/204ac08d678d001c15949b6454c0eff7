@@ -1,0 +1,14 @@
+package controller;
+
+import javax.xml.validation.Validator;
+
+public class ChangePwdCOmmandValidator extends Validator {
+
+		@Override
+		public boolean supports(Class<?> clazz) {
+			return ChangePwdCommand.class.isAssignableFrom(clazz);
+		}
+		
+		
+	
+}

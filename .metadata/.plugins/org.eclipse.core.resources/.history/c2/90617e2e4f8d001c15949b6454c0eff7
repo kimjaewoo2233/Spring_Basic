@@ -1,0 +1,28 @@
+package config;
+
+import org.apache.tomcat.jdbc.pool.DataSource;
+
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@EnableTransactionManagement
+public class MemberConfig {
+
+	@Bean(destroyMethod = "close")
+	public DataSource dataSource() {
+		DataSource ds = new DataSource();
+		ds.setDriverClassName("com.mysql.jdbc.Driver");
+		ds.setUrl("jdbc:mysql://localhost/spring5f?characterEncoding=utf8&useSSL=false");
+		ds.setUsername("spring6");
+		ds.setPassword("spring6");
+		ds.setInitialSize(2);
+		ds.setMaxActive(10);
+		ds.setTestWhileIdle(true);
+		ds.setMinEvictableIdleTimeMillis(6000*3);
+		ds.setTimeBetweenEvictionRunsMillis(10*100);
+		return ds;
+	}
+}

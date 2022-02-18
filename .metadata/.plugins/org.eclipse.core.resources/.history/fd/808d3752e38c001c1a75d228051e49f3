@@ -1,0 +1,7 @@
+package spring;
+
+public class Authinfo {
+		private Long id;
+		private String email;
+		private String name;
+}
